@@ -1,43 +1,42 @@
 html, body, div, span, applet, object, iframe,
-6.h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-7.a, abbr, acronym, address, big, cite, code,
-8.del, dfn, em, img, ins, kbd, q, s, samp,
-9.small, strike, strong, sub, sup, tt, var,
-10.b, u, i, center,
-11.dl, dt, dd, ol, ul, li,
-12.fieldset, form, label, legend,
-13.table, caption, tbody, tfoot, thead, tr, th, td,
-14.article, aside, canvas, details, embed,
-15.figure, figcaption, footer, header, hgroup,
-16.menu, nav, output, ruby, section, summary,
-17.time, mark, audio, video {
-18.	margin: 0;
-19.	padding: 0;
-20.	border: 0;
-21.	font-size: 100%;
-22.	font: inherit;
-23.	vertical-align: baseline;
-24.}
-25./* HTML5 display-role reset for older browsers */
-26.article, aside, details, figcaption, figure,
-27.footer, header, hgroup, menu, nav, section {
-28.	display: block;
-29.}
-30.body {
-31.	line-height: 1;
-32.}
-33.ol, ul {
-34.	list-style: none;
-35.}
-36.blockquote, q {
-37.	quotes: none;
-38.}
-39.blockquote:before, blockquote:after,
-40.q:before, q:after {
-41.	content: '';
-42.	content: none;
-43.}
-44.table {
-45.	border-collapse: collapse;
-46.	border-spacing: 0;
-47.}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
